@@ -10,23 +10,19 @@ let key = process.env.key
 export const loginUser = async (body) => {
   let token;
   const data = await User.findOne({ email: body.email });
-  //console.log("login data", data)
   if (data != null) {
     await bcrypt.compare(body.password, data.password)
       .then(function (result) {
-        //console.log(result)
         if (!result) {
           throw new error("invalid credential")
         } else {
           token = jwt.sign({ email: data.email, id:data._id }, key);
-          //console.log("print token---", token)
         }
       })
     return token
   } else
     throw new Error("Login unsuccesfull")
 };
-
 
 //register new user
 export const registerUser = async (body) => {
