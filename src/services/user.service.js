@@ -29,8 +29,6 @@ export const registerUser = async (body) => {
   const saltrounds = await bcrypt.genSalt(10);
   const hashedpwd = await bcrypt.hash(body.password, saltrounds)
   body.password = hashedpwd
-
   const data = await User.create(body);
-
   return data;
 };
