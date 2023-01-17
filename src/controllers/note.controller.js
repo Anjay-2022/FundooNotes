@@ -68,3 +68,27 @@ export const deletenote = async (req, res, next) => {
     next(error);
   }
 };
+
+export const archivenote = async (req, res, next) => {
+  try {
+    const data = await noteService.archivenote(req.params._id,req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'note archive/unarchive successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};export const trashnote = async (req, res, next) => {
+  try {
+    const data = await noteService.trashnote(req.params._id,req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'note trash/untrash successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
