@@ -1,0 +1,226 @@
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T05:15:08.734Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T05:15:11.911Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T07:51:55.116Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T07:51:58.606Z"}
+error: 
+    status - 500 
+    message - ValidationError: "archive" is required 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-16T07:54:17.160Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T07:55:32.641Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T07:55:36.207Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T07:58:44.004Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T07:58:47.324Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T07:59:57.337Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:00:01.199Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:00:22.503Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:00:40.846Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:00:43.912Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:01:15.182Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:01:18.958Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:01:39.160Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:01:42.647Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:07:50.357Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:07:54.584Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:18:32.316Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:18:36.469Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:20:56.404Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:21:00.700Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:21:13.225Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:21:17.904Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:21:42.550Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:21:46.616Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:22:00.295Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:22:04.391Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:22:15.153Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:22:24.063Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:22:27.863Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:22:34.346Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:22:54.933Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:22:59.757Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:23:47.391Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:23:50.948Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee6$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/note.service.js:70:39)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c5033c8d6395360411450c/archive 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2023-01-16T08:23:54.331Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:24:34.496Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:24:39.267Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:32:57.052Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:33:00.400Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:33:51.202Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:33:55.821Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:34:30.264Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:34:33.835Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:36:28.050Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:36:32.605Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:40:25.101Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:40:28.599Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:43:00.727Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:43:04.598Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:43:16.685Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:43:20.542Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:43:36.080Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:43:39.743Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:44:15.656Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:44:19.361Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:45:55.468Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:45:58.641Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:48:36.246Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:48:40.046Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:48:55.184Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:48:58.772Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:49:21.552Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:49:30.503Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:49:34.958Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:49:49.798Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:49:59.960Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:50:03.767Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:50:25.553Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:50:29.038Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:54:18.890Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:54:22.422Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:56:39.637Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:56:43.455Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:56:58.707Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:57:02.911Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T08:58:04.299Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T08:58:07.980Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:29:18.033Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:29:29.992Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:29:33.477Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:32:33.739Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:32:52.162Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:32:55.353Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:33:29.825Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:33:33.026Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:36:40.313Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:36:43.867Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:39:38.337Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:39:49.809Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:39:53.143Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:44:56.259Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:44:59.488Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:45:30.739Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:45:34.860Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:45:45.377Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:45:48.468Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:46:01.774Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:46:05.376Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:49:39.353Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:49:42.800Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:50:04.276Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:50:13.919Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:50:17.357Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:50:29.747Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:50:48.529Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:51:04.641Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:51:08.091Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:52:35.387Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:52:39.975Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:52:51.426Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:53:01.935Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:53:05.349Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T10:55:42.764Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T10:55:46.948Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:00:30.492Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:00:33.994Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:00:48.417Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:00:52.212Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:01:09.419Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:01:13.366Z"}
+error: 
+    status - 500 
+    message - ReferenceError: note is not defined
+    at _callee6$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/note.service.js:69:22)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c5030d8d63953604114508/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-16T11:01:13.709Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:01:48.163Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:01:52.391Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:02:24.244Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:02:29.690Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:05:43.656Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:05:47.294Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:06:37.629Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:06:41.283Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:06:55.302Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:06:59.290Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:07:50.239Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:08:01.791Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:08:05.499Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:09:17.717Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:09:30.533Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:09:35.114Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:11:01.114Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:11:05.991Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:13:33.677Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:13:37.647Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:14:34.156Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:14:37.803Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:15:35.614Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:15:39.576Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:16:35.072Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:16:41.343Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:16:49.316Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:16:56.047Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:16:59.519Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:18:04.884Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:18:13.039Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:18:16.847Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:18:57.230Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:19:00.545Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:20:47.321Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:20:50.624Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:21:04.351Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:21:08.699Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:21:19.056Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:21:29.791Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:21:33.322Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:22:06.078Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:22:09.933Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:22:32.925Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:22:41.311Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:22:48.242Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:23:02.606Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:23:07.911Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:23:22.188Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:23:36.963Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:23:41.809Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:23:50.049Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:23:58.185Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:24:01.900Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:26:05.272Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:26:12.804Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:26:17.320Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:27:06.479Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:27:22.022Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:27:25.349Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:27:54.049Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:27:57.835Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:28:06.377Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:28:09.660Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:28:23.760Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:28:29.602Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:28:32.891Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-16T11:29:45.186Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T11:29:48.861Z"}

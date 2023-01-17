@@ -1,0 +1,94 @@
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T03:24:27.734Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T03:24:37.914Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T03:56:03.265Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T03:56:07.397Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:30:45.129Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:30:53.613Z"}
+error: 
+    status - 500 
+    message - ValidationError: "user_id" is required 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-14T04:50:11.743Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:52:00.524Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:52:09.330Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:52:27.200Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:52:30.903Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:52:57.689Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:53:03.127Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:53:43.958Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:53:49.345Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:54:08.632Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:54:17.248Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:54:58.555Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:55:03.842Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:56:46.990Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:56:54.404Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:57:21.088Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T04:58:13.017Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:58:18.230Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T05:29:52.754Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T05:30:04.619Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:28:29)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:16:22)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-14T05:30:47.272Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T05:36:16.493Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T05:36:21.796Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T05:37:14.118Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T05:37:23.201Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T05:38:02.425Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T05:38:06.724Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-14T05:38:44.774Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T05:38:48.947Z"}

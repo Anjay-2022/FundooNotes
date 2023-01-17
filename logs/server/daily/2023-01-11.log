@@ -1,0 +1,138 @@
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:33:42.115Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:33:46.350Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:35:39.164Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:35:48.725Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:36:19.323Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:36:34.454Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:36:38.350Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:37:08.397Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:37:13.523Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:41:57.421Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:42:01.217Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:43:34.655Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:43:38.895Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:44:30.310Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:44:35.718Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T05:44:51.358Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:44:59.459Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:17:26.171Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:17:30.255Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:19:50.850Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:20:06.089Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:20:12.784Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:21:24.193Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:21:28.532Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:22:11.534Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:22:15.065Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:23:50.363Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:23:54.535Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:24:16.527Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:24:20.390Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:25:37.347Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:25:41.258Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:26:36.397Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:26:40.135Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:27:15.518Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:27:19.104Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:28:36.026Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:28:39.659Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T06:29:18.828Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T06:29:22.405Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T09:46:14.926Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T09:49:28.050Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T09:49:56.245Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T09:50:35.430Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:51:28.468Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T09:55:44.373Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T09:55:50.974Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T09:56:03.078Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:56:13.395Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:21:47.592Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:21:57.439Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:22:55.045Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:23:03.377Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:23:13.929Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\sign.js:107:20)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:20:20 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:23:20.416Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:23:51.808Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:23:58.435Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:24:13.530Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:24:18.459Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:24:48.787Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:24:58.379Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\sign.js:107:20)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:21:20 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:25:11.872Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:25:34.718Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:25:41.085Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:25:48.686Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:26:00.150Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:26:05.614Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\sign.js:107:20)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:21:20 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:26:09.525Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:26:50.842Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:26:56.216Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\sign.js:107:20)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:22:20 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:27:07.222Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:28:25.251Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:28:30.359Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\sign.js:107:20)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:23:20 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:28:34.371Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:29:00.217Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:29:05.551Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:29:13.269Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:29:18.707Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:30:43.631Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:30:53.461Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:31:53.248Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:32:04.177Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:32:29.143Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:32:48.844Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:32:54.070Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:36:37.857Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:36:57.019Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:37:07.000Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:37:22.306Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:37:27.606Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:38:47.655Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:38:59.472Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T10:40:07.390Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:40:11.809Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T12:06:21.967Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T12:06:31.155Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-11T12:09:40.934Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T12:09:47.107Z"}

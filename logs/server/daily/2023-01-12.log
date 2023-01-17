@@ -1,0 +1,73 @@
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T03:34:06.105Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T03:34:15.192Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T04:42:01.646Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T04:42:11.347Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T04:50:09.738Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T04:50:13.811Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T04:50:29.851Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T04:50:33.547Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T04:52:08.371Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T04:52:17.407Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T04:55:09.826Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T04:55:17.086Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T04:55:26.502Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T04:56:07.998Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T04:56:18.477Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:34:57.180Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:35:30.681Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:35:40.646Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T05:35:48.829Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:36:33.234Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T05:36:37.365Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:36:51.253Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T05:36:54.376Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:37:27.989Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T05:37:31.143Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:38:08.916Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T05:38:17.368Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/63bf9ca11febe43068baec31 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-12T05:42:31.257Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/63bf9ca11febe43068baec31 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-12T05:42:43.358Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:44:09.461Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T05:44:21.080Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:44:44.879Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T05:45:01.808Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T05:45:10.453Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T12:17:01.879Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T12:17:08.125Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T12:17:37.581Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T12:17:42.850Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T12:17:50.331Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T12:17:55.668Z"}
+error: 
+    status - 500 
+    message - ValidationError: "colour" is not allowed 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-12T12:22:14.214Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T12:24:01.938Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T12:24:10.749Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T12:25:06.266Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T12:25:16.613Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T12:25:25.919Z"}
+error: 
+    status - 500 
+    message - ValidationError: "trash" is required 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-12T12:25:30.813Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-12T12:26:06.771Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T12:26:11.952Z"}

@@ -1,0 +1,542 @@
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T05:38:23.800Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T05:38:34.734Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T05:42:04.257Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T05:42:26.570Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T05:42:38.637Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T05:42:52.789Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T10:44:18.650Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T10:44:27.552Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:25:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T10:46:03.596Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T10:46:14.724Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T10:47:57.292Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T10:48:05.817Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T10:50:25.214Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T10:50:47.523Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T10:50:52.807Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T10:54:16.611Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T10:54:21.836Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T10:56:20.669Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T10:56:25.911Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:07:20.203Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:07:29.722Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:19:10.247Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:19:20.572Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:19:49.418Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:19:58.142Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:20:19.338Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:20:27.728Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:20:33.533Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:23:03.152Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:23:14.943Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:23:20.321Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:24:35.907Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:24:41.765Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:24:54.935Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:25:08.991Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:25:27.111Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:25:33.130Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:26:41.989Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:27:07.300Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:27:12.633Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:28:08.195Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:28:15.303Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:28:20.110Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:28:24.182Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:22:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T11:28:35.884Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:31:47.538Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:31:57.590Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:22:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T11:32:28.172Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:34:18.480Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:34:26.087Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:34:32.484Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:34:41.629Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:22:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T11:42:50.924Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:22:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T11:43:12.994Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:44:27.693Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:44:37.586Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T11:44:42.906Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:46:01.082Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:46:06.407Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T11:46:11.848Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:49:01.834Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T11:49:15.388Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T11:49:20.670Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:05:19.579Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:05:25.509Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:05:40.332Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:05:59.084Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:06:03.592Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:22:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T13:06:26.783Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:06:48.358Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:06:53.172Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:22:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T13:06:57.063Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:09:27.415Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:09:32.787Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:10:01.997Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:10:06.985Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:23:02.572Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:23:56.283Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:24:10.692Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:24:16.184Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:24:35.545Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:24:52.541Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:24:57.093Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:42:41.524Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:42:45.945Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:19:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T13:44:36.296Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:45:19.453Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:45:27.250Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:45:32.804Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:45:40.817Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:45:44.480Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:45:49.984Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:45:54.114Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:49:15.375Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:49:20.466Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:49:39.682Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:49:43.760Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:49:56.546Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:50:01.112Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:50:10.580Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:50:14.713Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:54:09.687Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:54:23.266Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:54:42.667Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:54:49.244Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:54:57.317Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:55:04.838Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:55:11.349Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:55:15.046Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:56:49.766Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:56:54.279Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:23:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T13:58:37.659Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:23:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T13:58:43.986Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T13:59:25.120Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T13:59:31.995Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:23:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T13:59:35.995Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:23:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T14:00:01.619Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T14:03:18.659Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T14:03:26.716Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:19:40.505Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:19:45.842Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:23:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T15:19:56.076Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:20:25.061Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:20:31.572Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:20:36.355Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:23:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T15:20:42.179Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:23:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T15:20:59.230Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:22:14.658Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:22:27.590Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:22:31.260Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:22:41.304Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:22:48.099Z"}
+error: 
+    status - 500 
+    message - ReferenceError: saltrounds is not defined
+    at _callee3$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:28:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:27:21)
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\controllers\/user.controller.js:69:36)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\Yatendra Pratap\Fundoo_Notes\src\controllers\/user.controller.js:67:21)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\Yatendra Pratap\Fundoo_Notes\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T15:23:14.819Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:27:11.829Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:27:16.216Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee3$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:31:27)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:27:21)
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\controllers\/user.controller.js:69:36)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\Yatendra Pratap\Fundoo_Notes\src\controllers\/user.controller.js:67:21)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\Yatendra Pratap\Fundoo_Notes\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T15:27:20.109Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:35:09.347Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:35:15.354Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:35:20.810Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee3$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:31:27)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T15:35:26.226Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:39:46.495Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:39:54.715Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:41:42.711Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:41:46.859Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:43:18.686Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:43:22.715Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:45:17.365Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:45:21.437Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:48:31.297Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:48:36.950Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:49:55.959Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:50:00.494Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:50:05.583Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:50:38.755Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:50:43.875Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:51:18.872Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:51:22.385Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:53:15.882Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:53:20.154Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:53:33.348Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:53:50.515Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:53:55.378Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:54:56.507Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:55:30.836Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:55:38.648Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:55:42.232Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:56:00.571Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:56:04.639Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T15:59:31.481Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T15:59:38.575Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T16:00:00.923Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T16:00:05.737Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T16:01:08.378Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T16:01:13.164Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T16:04:38.344Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T16:04:42.112Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-10T16:29:38.439Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T16:29:41.944Z"}
