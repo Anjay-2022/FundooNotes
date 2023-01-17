@@ -45,3 +45,41 @@ export const deletenote = async (_id, body) => {
     return '';
   }
 };
+
+export const archivenote = async (id, body) => {
+  try {
+    const data = await notes.findOne({$and:[{user_id: body.user_id },{_id:id}]});
+    if (data !== null) {
+      if (data.archive == false) {
+        const updatednote = await notes.updateOne(
+          { _id:id }, { $set: { archive: true }, })
+        return updatednote;
+      } else {
+        const updatednote = await notes.updateOne(
+          { _id: id }, { $set: { archive: false } })
+        return updatednote;
+      }
+    }
+  } catch (err) {
+    console.log(err)
+  }
+};
+
+export const trashnote = async (id, body) => {
+  try {
+    const data = await notes.findOne({$and:[{user_id: body.user_id },{_id:id}]});
+    if (data !== null) {
+      if (data.trash == false) {
+        const updatednote = await notes.updateOne(
+          { _id:id }, { $set: { trash: true } })
+        return updatednote;
+      } else {
+        const updatednote = await notes.updateOne(
+          { _id: id }, { $set: { trash: false } })
+        return updatednote;
+      }
+    }
+  } catch (err) {
+    console.log(err)
+  }
+};
