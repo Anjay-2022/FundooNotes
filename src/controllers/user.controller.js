@@ -1,7 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
-
 export const loginUser = async (req, res, next) => {
   try {
     const data = await UserService.loginUser(req.body);
