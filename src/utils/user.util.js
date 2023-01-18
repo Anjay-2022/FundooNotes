@@ -10,7 +10,7 @@ const REFRESH_TOKEN='1//04LqCMokLFDiOCgYIARAAGAQSNwF-L9IrKypodP_E-ES8_LHOvMDaTuZ
 const oAuth2client = new google.auth.OAuth2(CLIENT_ID,CLIENT_SECRET,REDIRECT_URI)
 oAuth2client.setCredentials({refresh_token:REFRESH_TOKEN})
 
-async function sendmail(){
+export  async function forgetemail(to_email,token){
     try {
         const accessToken=await oAuth2client.getAccessToken()
         const transport= nodemailer.createTransport({
@@ -24,19 +24,26 @@ async function sendmail(){
                 accessToken:accessToken
             }
         })
+
         const mailOptions={
             from:'ANJAY2013 <anjay2013@gmail.com>',
-            to:'anjaypratap2020@gmail.com',
-            subject:"hello from gmail using API",
-            text:"HELLO FROM GMAIL EMAIL USING API",
-            html:'<h1>HELLO-FROM-GMAIL-EMAIL-USING-API</h1>'
+            to:to_email,
+            subject:"Reset your password using this link",
+            text:"text mess",
+            html:`<h1> TO reset your pwd  <br> this token is valid for 10 minutes  " <u>${token}</u> " <br> To redirect <a href="http://localhost:5454/api/v1/users/resetpassword/${token}"> click here</a></h1>`
+        
         }
+
         const result =await transport.sendMail(mailOptions)
-        return result
+        //return result
+        return token
+        
     } catch (error) {
         return error
     }
 }
+
+
 // sendmail()
 // .then((result)=> console.log('email send...',result))
 // .catch((error)=> console.log(error.message))

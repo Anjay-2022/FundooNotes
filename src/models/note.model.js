@@ -1,4 +1,3 @@
-
 import { Schema, model } from 'mongoose';
 
 
@@ -9,7 +8,7 @@ const noteSchema = new Schema(
     description: {type: String},    
     colour: {type: String,default:'red'}, 
     archive:{type:Boolean,default:false},   
-    trash:{type:Boolean,default:false},     
+    trash:{type:Boolean,default:false},   
   },
   {
     timestamps: true
