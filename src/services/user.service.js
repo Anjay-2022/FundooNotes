@@ -3,6 +3,7 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
 import dotenv from 'dotenv';
 import { forgetemail } from '../utils/user.util';
+import { util } from 'chai';
 dotenv.config();
 
 let key = process.env.key

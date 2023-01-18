@@ -1,0 +1,110 @@
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:37:07.651Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:37:11.692Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:43:14.815Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:43:18.683Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:43:51.108Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:43:54.780Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:44:27.081Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:44:45.507Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:44:49.258Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:45:30.955Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:45:34.616Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:46:15.172Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:47:18.528Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:47:28.919Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:47:49.182Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:47:53.806Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:48:59.064Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:49:02.614Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:51:29.539Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:51:33.702Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:52:00.139Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:52:03.421Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:54:35.880Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:54:39.687Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:54:51.129Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:54:55.929Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T08:55:11.580Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T08:55:15.880Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:07:05.793Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:07:09.326Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:08:59.056Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:09:02.424Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:56:23)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-17T10:10:44.706Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:11:36.833Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:11:40.686Z"}
+error: 
+    status - 500 
+    message - ReferenceError: notes is not defined
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:53:20)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-17T10:11:56.875Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:12:56.983Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:13:00.737Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:13:16.819Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:13:20.590Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:18:26.086Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:18:30.282Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:21:01.118Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:21:04.520Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:27:31.721Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:27:37.344Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:31:50.573Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:31:54.448Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:32:10.380Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:32:14.289Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:57:23)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-17T10:32:23.421Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:32:47.138Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:32:50.751Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:34:54.826Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:35:19.290Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:35:23.051Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:36:04.971Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:36:08.842Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:36:19.175Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:36:25.704Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:36:29.061Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" length must be at least 4 characters long 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-17T10:42:43.216Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:44:53.579Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:44:57.852Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-17T10:50:46.945Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T10:50:51.080Z"}

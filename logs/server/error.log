@@ -1808,3 +1808,1128 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2023-01-16T11:01:13.709Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:56:23)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-17T10:10:44.706Z"}
+error: 
+    status - 500 
+    message - ReferenceError: notes is not defined
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:53:20)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-17T10:11:56.875Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:57:23)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-17T10:32:23.421Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" length must be at least 4 characters long 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-17T10:42:43.216Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetPassword 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-01-18T08:42:27.484Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:35:29)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at resetuserAuth (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:26:27)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-18T09:10:57.567Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:35:29)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at resetuserAuth (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:26:27)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/resetPassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-18T09:31:09.262Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/3c7bd3ee0f67a0838e7b062/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-18T09:40:26.729Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/63c7bd3ee0f67a0838e7b062 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:03:57.560Z"}
+error: uncaughtException: Invalid status code: undefined
+RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:338:11)
+    at ServerResponse.writeHead (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:329:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\controllers\/note.controller.js:31:41)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Jan 18 2023 15:39:46 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":164896.875},"process":{"argv":["node","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\index.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19606684,"external":21981660,"heapTotal":129847296,"heapUsed":105388968,"rss":174182400},"pid":240,"uid":null,"version":"v19.3.0"},"stack":"RangeError: Invalid status code: undefined\n    at new NodeError (node:internal/errors:400:5)\n    at ServerResponse.writeHead (node:_http_server:338:11)\n    at ServerResponse.writeHead (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\on-headers\\index.js:44:26)\n    at ServerResponse._implicitHeader (node:_http_server:329:8)\n    at write_ (node:_http_outgoing:886:9)\n    at ServerResponse.end (node:_http_outgoing:996:5)\n    at ServerResponse.send (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js:232:10)\n    at ServerResponse.json (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js:278:15)\n    at _callee2$ (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\controllers\\/note.controller.js:31:41)\n    at tryCatch (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.throw (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-01-18T10:09:46.198Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":400,"method":null,"native":false},{"column":11,"file":"node:_http_server","function":"ServerResponse.writeHead","line":338,"method":"writeHead","native":false},{"column":26,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\on-headers\\index.js","function":"ServerResponse.writeHead","line":44,"method":"writeHead","native":false},{"column":8,"file":"node:_http_server","function":"ServerResponse._implicitHeader","line":329,"method":"_implicitHeader","native":false},{"column":9,"file":"node:_http_outgoing","function":"write_","line":886,"method":null,"native":false},{"column":5,"file":"node:_http_outgoing","function":"ServerResponse.end","line":996,"method":"end","native":false},{"column":10,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":232,"method":"send","native":false},{"column":15,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":41,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\controllers\\/note.controller.js","function":"_callee2$","line":31,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":69,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Invalid status code: undefined
+RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:338:11)
+    at ServerResponse.writeHead (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:329:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\controllers\/note.controller.js:31:41)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Jan 18 2023 15:42:08 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":165038.828},"process":{"argv":["node","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\index.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18482496,"external":20857472,"heapTotal":129269760,"heapUsed":96986960,"rss":172187648},"pid":16480,"uid":null,"version":"v19.3.0"},"stack":"RangeError: Invalid status code: undefined\n    at new NodeError (node:internal/errors:400:5)\n    at ServerResponse.writeHead (node:_http_server:338:11)\n    at ServerResponse.writeHead (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\on-headers\\index.js:44:26)\n    at ServerResponse._implicitHeader (node:_http_server:329:8)\n    at write_ (node:_http_outgoing:886:9)\n    at ServerResponse.end (node:_http_outgoing:996:5)\n    at ServerResponse.send (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js:232:10)\n    at ServerResponse.json (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js:278:15)\n    at _callee2$ (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\controllers\\/note.controller.js:31:41)\n    at tryCatch (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.throw (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-01-18T10:12:08.140Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":400,"method":null,"native":false},{"column":11,"file":"node:_http_server","function":"ServerResponse.writeHead","line":338,"method":"writeHead","native":false},{"column":26,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\on-headers\\index.js","function":"ServerResponse.writeHead","line":44,"method":"writeHead","native":false},{"column":8,"file":"node:_http_server","function":"ServerResponse._implicitHeader","line":329,"method":"_implicitHeader","native":false},{"column":9,"file":"node:_http_outgoing","function":"write_","line":886,"method":null,"native":false},{"column":5,"file":"node:_http_outgoing","function":"ServerResponse.end","line":996,"method":"end","native":false},{"column":10,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":232,"method":"send","native":false},{"column":15,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":41,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\controllers\\/note.controller.js","function":"_callee2$","line":31,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":69,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63c7bd3ee0f67a0838e7b06" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bd3ee0f67a0838e7b06 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:14:20.150Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63c7bd3ee0f67a0838e7b06" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bd3ee0f67a0838e7b06 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:15:58.747Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63c7bd3ee0f67a0838e7b06" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bd3ee0f67a0838e7b06 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:20:43.594Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63c7bd3ee0f67a0838e7b06" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bd3ee0f67a0838e7b06 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:24:55.012Z"}
+error: 
+    status - 500 
+    message - Error: NO note found
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/note.service.js:23:9)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bd3ee0f67a0838e7b063 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:37:18.987Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/all 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:43:00.463Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05e 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:43:44.759Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\Yatendra Pratap\Fundoo_Notes\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05e 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:43:51.837Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63c7bcfee0f67a0838e7b05" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:44:05.179Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63c7bcfee0f67a0838e7b05" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:45:39.792Z"}
+error: 
+    status - 500 
+    message - Error: NO note found
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/note.service.js:23:9)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:46:45.005Z"}
+error: 
+    status - 500 
+    message - Error: NO note found
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/note.service.js:48:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:47:42.120Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Object_id
+    at _callee4$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/note.service.js:42:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:52:41.886Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Object_id
+    at _callee6$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/note.service.js:69:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05f/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:53:07.874Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Object_id
+    at _callee7$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/note.service.js:85:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05f/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:53:15.793Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63c7bcfee0f67a0838e7b05" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:53:22.919Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Object_id
+    at _callee5$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/note.service.js:52:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63c7bcfee0f67a0838e7b05f 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-18T10:53:49.354Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:40:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:33:52 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":171743.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19163710,"external":20913949,"heapTotal":134635520,"heapUsed":107968080,"rss":174870528},"pid":10700,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-18T12:03:52.337Z","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":40,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:40:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:35:01 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":171811.765},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19454981,"external":21205220,"heapTotal":122699776,"heapUsed":95465272,"rss":161841152},"pid":16976,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-18T12:05:01.079Z","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":40,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:40:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:37:44 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":171975.562},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19557127,"external":21307366,"heapTotal":124272640,"heapUsed":98862312,"rss":163307520},"pid":2488,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-18T12:07:44.875Z","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":40,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 201 to equal 200
+AssertionError: expected 201 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:41:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:49:13 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":200,"message":"expected 201 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":172664.156},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19042035,"external":20792874,"heapTotal":125059072,"heapUsed":95553944,"rss":166371328},"pid":9776,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 201 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-18T12:19:13.471Z","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected { …(8) } to be an array
+AssertionError: expected { …(8) } to be an array
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:42:39)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:49:59 GMT+0530 (India Standard Time)","error":{"actual":{"__v":0,"_id":"63c7e3ebad682e30cc4b0846","createdAt":"2023-01-18T12:19:55.792Z","email":"anjaypratap2020@gmail.com","firstname":"ramendra","lastname":"atrey","password":"$2b$10$6wcRAwlOvjBee7pZCCVSYOgu5RdqbREBrwToeNbyWnwWtI/oaUM.G","updatedAt":"2023-01-18T12:19:55.792Z"},"message":"expected { …(8) } to be an array","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected { …(8) } to be an array\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:39)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":172710.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19672253,"external":21422512,"heapTotal":124272640,"heapUsed":98909480,"rss":166780928},"pid":12492,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected { …(8) } to be an array\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:39)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-18T12:19:59.354Z","trace":[{"column":39,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T12:24:24.091Z"}
+error: uncaughtException: expected 200 to equal 202
+AssertionError: expected 200 to equal 202
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:57:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 18:20:21 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":202,"message":"expected 200 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 202\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:57:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":174532.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19675860,"external":21426119,"heapTotal":124014592,"heapUsed":99682408,"rss":166096896},"pid":12492,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 200 to equal 202\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:57:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-18T12:50:21.852Z","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":57,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:26:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T13:01:03.772Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T13:03:39.916Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:26:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T13:03:40.906Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-18T13:15:22.422Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-18T15:41:25.320Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:41:30.400Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:41:30.550Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:41:30.613Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:41:30.662Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:41:35.902Z"}
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:41:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 21:11:35 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":830.656},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19417900,"external":21168719,"heapTotal":139395072,"heapUsed":113491656,"rss":179212288},"pid":10984,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-18T15:41:35.964Z","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-18T15:45:59.370Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:04.454Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:04.537Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:04.579Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:04.610Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:09.600Z"}
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:41:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 21:16:09 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1104.328},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18582057,"external":20332876,"heapTotal":123355136,"heapUsed":90113216,"rss":161722368},"pid":5020,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-18T15:46:09.641Z","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:47.491Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:47.586Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:47.685Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:47.708Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:26:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:49.514Z"}
+error: 
+    status - 500 
+    message - Error: invalid credential
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:19:19 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:46:50.157Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:49:11.597Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:49:11.695Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:49:11.745Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:49:11.778Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:26:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:49:12.769Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:127:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 21:19:12 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:127:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1287.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19083953,"external":20834212,"heapTotal":126935040,"heapUsed":95722048,"rss":169979904},"pid":4740,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:127:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-18T15:49:12.816Z","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":127,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:50:24.163Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:50:24.256Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:50:24.310Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:50:24.366Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:26:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:50:26.842Z"}
+error: 
+    status - 500 
+    message - Error: invalid credential
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:19:19 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:50:27.394Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:51:46.117Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:53:30.128Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed Jan 18 2023 21:25:40 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1675.156},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18279182,"external":20054105,"heapTotal":125710336,"heapUsed":85301792,"rss":161366016},"pid":8484,"uid":null,"version":"v19.3.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2023-01-18T15:55:40.466Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed Jan 18 2023 21:26:31 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1726.625},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19474690,"external":21224929,"heapTotal":122990592,"heapUsed":95424424,"rss":161947648},"pid":2240,"uid":null,"version":"v19.3.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2023-01-18T15:56:31.933Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:59:05.911Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:59:05.955Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:59:06.002Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:59:06.061Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:26:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:59:07.023Z"}
+error: 
+    status - 500 
+    message - Error: invalid credential
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:19:19 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T15:59:07.563Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T16:30:12.949Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T16:30:13.030Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T16:30:13.082Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T16:30:13.110Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:26:13)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T16:30:14.033Z"}
+error: 
+    status - 500 
+    message - Error: invalid credential
+    at C:\Users\Yatendra Pratap\Fundoo_Notes\src\services\/user.service.js:19:19 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-18T16:30:14.633Z"}

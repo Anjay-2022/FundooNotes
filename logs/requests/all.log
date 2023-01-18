@@ -975,3 +975,508 @@ info: ::1 - - [16/Jan/2023:11:31:02 +0000] "PUT /api/v1/notes/63c5030d8d63953604
 
 info: ::1 - - [16/Jan/2023:11:31:22 +0000] "PUT /api/v1/notes/63c5030d8d63953604114508/trash HTTP/1.1" 202 349 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [17/Jan/2023:08:40:17 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 328 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:08:40:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:08:41:46 +0000] "GET /api/v1/users/sendmail HTTP/1.1" 201 52 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:08:44:54 +0000] "GET /api/v1/users/sendmail HTTP/1.1" 201 52 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:08:45:06 +0000] "GET /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/Jan/2023:08:45:06 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/Jan/2023:10:07:26 +0000] "GET /api/v1/users/sendmail HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:07:57 +0000] "GET /api/v1/users/forgetPassword HTTP/1.1" 201 52 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:08:22 +0000] "GET /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/Jan/2023:10:10:44 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 500 55 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:11:56 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 500 55 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:13:33 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:14:52 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:15:57 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:19:02 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:27:56 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:28:20 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:32:23 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 500 55 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:35:26 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:36:35 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:38:03 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:39:58 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 323 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:40:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:42:43 +0000] "POST /api/v1/notes/add HTTP/1.1" 500 86 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:42:53 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 296 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:43:28 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 302 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:43:39 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 547 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:44:07 +0000] "GET /api/v1/notes/63c67bd092c5b632fcaf1f47 HTTP/1.1" 200 302 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:45:25 +0000] "PUT /api/v1/notes/63c67bd092c5b632fcaf1f47 HTTP/1.1" 202 349 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:45:55 +0000] "PUT /api/v1/notes/63c67bd092c5b632fcaf1f47/archive HTTP/1.1" 202 347 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:46:30 +0000] "PUT /api/v1/notes/63c67bd092c5b632fcaf1f47/trash HTTP/1.1" 202 349 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:47:00 +0000] "DELETE /api/v1/notes/63c67bd092c5b632fcaf1f47 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:49:32 +0000] "PUT /api/v1/users/forgetPassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:50:07 +0000] "GET /api/v1/users/forgetPassword HTTP/1.1" 201 52 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [17/Jan/2023:10:51:42 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:25:42 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 250 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:26:12 +0000] "GET /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuamF5MjAxM0BnbWFpbC5jb20iLCJpZCI6IjYzYzY1ZWYxM2YyZmVhMTJhYzlkNTNlOCIsImlhdCI6MTY3NDAzMDMzNn0.VsTgFY8s4rvwLT1HMlG84l8ze_guKWULFVakVq9KXNE HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+
+info: ::1 - - [18/Jan/2023:08:33:07 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:35:50 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:37:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:40:03 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:40:24 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 250 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:42:27 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:42:37 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:43:10 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:08:59:53 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 273 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:05:33 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:06:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:10:57 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 500 46 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:12:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:28:57 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 328 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:29:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:30:14 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 307 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:31:09 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 500 46 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:31:23 +0000] "PUT /api/v1/users/resetPassword HTTP/1.1" 201 357 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:32:27 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:33:50 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 329 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:34:37 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 316 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:34:55 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 308 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:35:11 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 845 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:36:14 +0000] "GET /api/v1/notes/63c7bd2ce0f67a0838e7b060 HTTP/1.1" 200 316 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:36:31 +0000] "PUT /api/v1/notes/63c7bd2ce0f67a0838e7b060 HTTP/1.1" 202 308 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:36:49 +0000] "PUT /api/v1/notes/63c7bd2ce0f67a0838e7b060/archive HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:37:05 +0000] "GET /unarchive HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [18/Jan/2023:09:37:06 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [18/Jan/2023:09:37:44 +0000] "PUT /api/v1/notes/3c7bd3ee0f67a0838e7b062/trash HTTP/1.1" 202 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:39:52 +0000] "PUT /api/v1/notes/3c7bd3ee0f67a0838e7b062/trash HTTP/1.1" 202 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:40:08 +0000] "PUT /api/v1/notes/3c7bd3ee0f67a0838e7b062/trash HTTP/1.1" 202 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:40:26 +0000] "PUT /api/v1/notes/3c7bd3ee0f67a0838e7b062/archive HTTP/1.1" 500 46 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:41:01 +0000] "PUT /api/v1/notes/3c7bd3ee0f67a0838e7b062/archive HTTP/1.1" 202 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:42:06 +0000] "PUT /api/v1/notes/63c7bd2ce0f67a0838e7b060/archive HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:42:55 +0000] "PUT /api/v1/notes/63c7bd2ce0f67a0838e7b060/trash HTTP/1.1" 202 351 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:43:35 +0000] "PUT /api/v1/notes/63c7bd3ee0f67a0838e7b062/trash HTTP/1.1" 202 351 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:09:43:58 +0000] "PUT /api/v1/notes/63c7bd3ee0f67a0838e7b062/archive HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:03:48 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b062 HTTP/1.1" 200 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:03:57 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b062 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:04:13 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b06 HTTP/1.1" 200 343 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:04:41 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b062 HTTP/1.1" 200 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:04:50 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b06 HTTP/1.1" 200 343 "-" "PostmanRuntime/7.30.0"
+
+error: uncaughtException: Invalid status code: undefined
+RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:338:11)
+    at ServerResponse.writeHead (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:329:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\controllers\/note.controller.js:31:41)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Jan 18 2023 15:39:46 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":164896.953},"process":{"argv":["node","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\index.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19618692,"external":21993708,"heapTotal":129847296,"heapUsed":105523704,"rss":174247936},"pid":240,"uid":null,"version":"v19.3.0"},"stack":"RangeError: Invalid status code: undefined\n    at new NodeError (node:internal/errors:400:5)\n    at ServerResponse.writeHead (node:_http_server:338:11)\n    at ServerResponse.writeHead (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\on-headers\\index.js:44:26)\n    at ServerResponse._implicitHeader (node:_http_server:329:8)\n    at write_ (node:_http_outgoing:886:9)\n    at ServerResponse.end (node:_http_outgoing:996:5)\n    at ServerResponse.send (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js:232:10)\n    at ServerResponse.json (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js:278:15)\n    at _callee2$ (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\controllers\\/note.controller.js:31:41)\n    at tryCatch (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.throw (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":400,"method":null,"native":false},{"column":11,"file":"node:_http_server","function":"ServerResponse.writeHead","line":338,"method":"writeHead","native":false},{"column":26,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\on-headers\\index.js","function":"ServerResponse.writeHead","line":44,"method":"writeHead","native":false},{"column":8,"file":"node:_http_server","function":"ServerResponse._implicitHeader","line":329,"method":"_implicitHeader","native":false},{"column":9,"file":"node:_http_outgoing","function":"write_","line":886,"method":null,"native":false},{"column":5,"file":"node:_http_outgoing","function":"ServerResponse.end","line":996,"method":"end","native":false},{"column":10,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":232,"method":"send","native":false},{"column":15,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":41,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\controllers\\/note.controller.js","function":"_callee2$","line":31,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":69,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Invalid status code: undefined
+RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:338:11)
+    at ServerResponse.writeHead (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:329:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\src\controllers\/note.controller.js:31:41)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Jan 18 2023 15:42:08 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":165038.875},"process":{"argv":["node","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\index.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18494506,"external":20869522,"heapTotal":129269760,"heapUsed":97121648,"rss":172257280},"pid":16480,"uid":null,"version":"v19.3.0"},"stack":"RangeError: Invalid status code: undefined\n    at new NodeError (node:internal/errors:400:5)\n    at ServerResponse.writeHead (node:_http_server:338:11)\n    at ServerResponse.writeHead (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\on-headers\\index.js:44:26)\n    at ServerResponse._implicitHeader (node:_http_server:329:8)\n    at write_ (node:_http_outgoing:886:9)\n    at ServerResponse.end (node:_http_outgoing:996:5)\n    at ServerResponse.send (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js:232:10)\n    at ServerResponse.json (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js:278:15)\n    at _callee2$ (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\controllers\\/note.controller.js:31:41)\n    at tryCatch (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.throw (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":400,"method":null,"native":false},{"column":11,"file":"node:_http_server","function":"ServerResponse.writeHead","line":338,"method":"writeHead","native":false},{"column":26,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\on-headers\\index.js","function":"ServerResponse.writeHead","line":44,"method":"writeHead","native":false},{"column":8,"file":"node:_http_server","function":"ServerResponse._implicitHeader","line":329,"method":"_implicitHeader","native":false},{"column":9,"file":"node:_http_outgoing","function":"write_","line":886,"method":null,"native":false},{"column":5,"file":"node:_http_outgoing","function":"ServerResponse.end","line":996,"method":"end","native":false},{"column":10,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":232,"method":"send","native":false},{"column":15,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":41,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\src\\controllers\\/note.controller.js","function":"_callee2$","line":31,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":69,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [18/Jan/2023:10:14:20 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b06 HTTP/1.1" 400 146 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:15:58 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b06 HTTP/1.1" 400 146 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:16:12 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b062 HTTP/1.1" 200 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:20:38 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b062 HTTP/1.1" 200 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:20:43 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b06 HTTP/1.1" 400 146 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:24:48 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b062 HTTP/1.1" 200 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:24:55 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b06 HTTP/1.1" 400 146 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:25:41 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b063 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:28:35 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b063 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:32:15 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b063 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:32:39 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b063 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:35:07 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b063 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:36:31 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b063 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:37:18 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b063 HTTP/1.1" 400 45 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:37:43 +0000] "GET /api/v1/notes/63c7bd3ee0f67a0838e7b062 HTTP/1.1" 200 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:43:00 +0000] "GET /api/v1/notes/all HTTP/1.1" 500 52 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:43:08 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 834 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:43:44 +0000] "GET /api/v1/notes/63c7bcfee0f67a0838e7b05e HTTP/1.1" 500 52 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:43:51 +0000] "GET /api/v1/notes/63c7bcfee0f67a0838e7b05e HTTP/1.1" 500 52 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:43:58 +0000] "GET /api/v1/notes/63c7bcfee0f67a0838e7b05e HTTP/1.1" 200 329 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:44:05 +0000] "GET /api/v1/notes/63c7bcfee0f67a0838e7b05 HTTP/1.1" 400 146 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:45:39 +0000] "GET /api/v1/notes/63c7bcfee0f67a0838e7b05 HTTP/1.1" 400 146 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:46:32 +0000] "GET /api/v1/notes/63c7bcfee0f67a0838e7b05E HTTP/1.1" 200 329 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:46:44 +0000] "GET /api/v1/notes/63c7bcfee0f67a0838e7b05f HTTP/1.1" 400 45 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:46:53 +0000] "GET /api/v1/notes/63c7bcfee0f67a0838e7b05e HTTP/1.1" 200 329 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:47:18 +0000] "POST /api/v1/notes/63c7bcfee0f67a0838e7b05f HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:47:42 +0000] "PUT /api/v1/notes/63c7bcfee0f67a0838e7b05f HTTP/1.1" 400 45 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:52:41 +0000] "PUT /api/v1/notes/63c7bcfee0f67a0838e7b05f HTTP/1.1" 400 49 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:52:46 +0000] "PUT /api/v1/notes/63c7bcfee0f67a0838e7b05e HTTP/1.1" 202 315 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:53:07 +0000] "PUT /api/v1/notes/63c7bcfee0f67a0838e7b05f/archive HTTP/1.1" 400 49 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:53:15 +0000] "PUT /api/v1/notes/63c7bcfee0f67a0838e7b05f/trash HTTP/1.1" 400 49 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:53:22 +0000] "PUT /api/v1/notes/63c7bcfee0f67a0838e7b05/trash HTTP/1.1" 400 146 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:53:28 +0000] "PUT /api/v1/notes/63c7bcfee0f67a0838e7b05e/trash HTTP/1.1" 202 351 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:53:41 +0000] "DELETE /api/v1/notes/63c7bcfee0f67a0838e7b05f/trash HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:53:49 +0000] "DELETE /api/v1/notes/63c7bcfee0f67a0838e7b05f HTTP/1.1" 400 49 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:10:54:16 +0000] "DELETE /api/v1/notes/63c7bcfee0f67a0838e7b05e HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:11:17:05 +0000] "POST /api/v1/users/sendmail HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:11:17:42 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 281 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:11:20:17 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 299 "-" "PostmanRuntime/7.30.0"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:03:52 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:40:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:33:52 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":171743.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19171926,"external":20922205,"heapTotal":134635520,"heapUsed":108049560,"rss":174923776},"pid":10700,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":40,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:05:01 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:40:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:35:01 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":171811.781},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19463197,"external":21213476,"heapTotal":122699776,"heapUsed":95546744,"rss":161890304},"pid":16976,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":40,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:07:44 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:40:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:37:44 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":171975.578},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19565343,"external":21315622,"heapTotal":124272640,"heapUsed":98961144,"rss":163336192},"pid":2488,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:40:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":40,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:19:13 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 201 to equal 200
+AssertionError: expected 201 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:41:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:49:13 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":200,"message":"expected 201 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":172664.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19050251,"external":20801130,"heapTotal":125059072,"heapUsed":95643952,"rss":166432768},"pid":9776,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 201 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:19:59 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected { …(8) } to be an array
+AssertionError: expected { …(8) } to be an array
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:42:39)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 17:49:59 GMT+0530 (India Standard Time)","error":{"actual":{"__v":0,"_id":"63c7e3ebad682e30cc4b0846","createdAt":"2023-01-18T12:19:55.792Z","email":"anjaypratap2020@gmail.com","firstname":"ramendra","lastname":"atrey","password":"$2b$10$6wcRAwlOvjBee7pZCCVSYOgu5RdqbREBrwToeNbyWnwWtI/oaUM.G","updatedAt":"2023-01-18T12:19:55.792Z"},"message":"expected { …(8) } to be an array","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected { …(8) } to be an array\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:39)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":172710.125},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19680469,"external":21430768,"heapTotal":124272640,"heapUsed":98997904,"rss":166838272},"pid":12492,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected { …(8) } to be an array\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:39)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:20:53 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:24:23 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:24:24 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:50:21 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:50:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal 202
+AssertionError: expected 200 to equal 202
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:57:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 18:20:21 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":202,"message":"expected 200 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 202\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:57:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":174532.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19684076,"external":21434375,"heapTotal":124014592,"heapUsed":99764808,"rss":166166528},"pid":12492,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 200 to equal 202\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:57:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":57,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:51:46 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:12:51:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:13:01:02 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:13:01:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:13:01:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:13:03:39 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:13:03:39 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:13:03:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:13:03:40 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [18/Jan/2023:13:15:22 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:13:15:57 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 1120 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:13:16:45 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 299 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [18/Jan/2023:13:16:56 +0000] "GET /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuamF5MjAxM0BnbWFpbC5jb20iLCJpZCI6IjYzYzY1ZWYxM2YyZmVhMTJhYzlkNTNlOCIsImlhdCI6MTY3NDA0Nzc5OSwiZXhwIjoxNjc0MDQ4Mzk5fQ.rcwwlIg8N0MQ9y4012DDsAHY4eZ5LMF80Mp9FO-RAfc HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:41:30 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:41:30 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:41:30 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:41:30 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:41:35 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 103 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:41:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 21:11:35 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":830.687},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19426116,"external":21176975,"heapTotal":139395072,"heapUsed":113574200,"rss":179261440},"pid":10984,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:04 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:04 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:04 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:04 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:09 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 103 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:41:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 21:16:09 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1104.359},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18590273,"external":20341132,"heapTotal":123355136,"heapUsed":90196000,"rss":161767424},"pid":5020,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:47 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:47 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:47 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:47 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:48 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:49 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:46:50 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:49:11 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:49:11 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:49:11 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:49:11 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:49:11 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:49:12 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\tests\integration\/user.test.js:127:40)
+    at Test.assert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\Yatendra Pratap\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 18 2023 21:19:12 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:127:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1287.531},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19092169,"external":20842468,"heapTotal":126935040,"heapUsed":95817632,"rss":170242048},"pid":4740,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js:127:40)\n    at Test.assert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":127,"method":null,"native":false},{"column":6,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:50:24 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:50:24 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:50:24 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:50:24 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:50:25 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:50:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:50:26 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:50:27 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:51:46 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:53:30 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed Jan 18 2023 21:25:40 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1675.171},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18287398,"external":20036361,"heapTotal":125710336,"heapUsed":85369392,"rss":161370112},"pid":8484,"uid":null,"version":"v19.3.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed Jan 18 2023 21:26:31 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1726.625},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19482906,"external":21233185,"heapTotal":122990592,"heapUsed":95466952,"rss":161988608},"pid":2240,"uid":null,"version":"v19.3.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:58:21 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:59:05 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:59:05 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:59:05 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:59:06 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:59:06 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:59:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:59:07 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:15:59:07 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:12 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:12 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:13 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:13 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:13 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:14 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:14 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
