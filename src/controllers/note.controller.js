@@ -10,6 +10,10 @@ export const getallnote = async (req, res, next) => {
       message: 'All note fetched successfully'
     });
   } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    })
     next(error);
   }
 };
@@ -24,6 +28,10 @@ export const getnote = async (req, res, next) => {
       message: 'note fetched successfully'
     });
   } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    })
     next(error);
   }
 };
@@ -37,6 +45,10 @@ export const createnote = async (req, res, next) => {
       message: 'note created successfully'
     });
   } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    })
     next(error);
   }
 };
@@ -51,6 +63,10 @@ export const updatenote = async (req, res, next) => {
       message: 'note updated successfully'
     });
   } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    })
     next(error);
   }
 };
@@ -65,6 +81,10 @@ export const deletenote = async (req, res, next) => {
       message: 'note deleted successfully'
     });
   } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    })
     next(error);
   }
 };
@@ -75,12 +95,17 @@ export const archivenote = async (req, res, next) => {
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
-      message: 'note archive/unarchive successfully'
+      message: 'note Archive/unarchive successfully'
     });
   } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    })
     next(error);
   }
-};export const trashnote = async (req, res, next) => {
+};
+export const trashnote = async (req, res, next) => {
   try {
     const data = await noteService.trashnote(req.params._id,req.body);
     res.status(HttpStatus.ACCEPTED).json({
@@ -89,6 +114,10 @@ export const archivenote = async (req, res, next) => {
       message: 'note trash/untrash successfully'
     });
   } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    })
     next(error);
   }
 };
