@@ -1,4 +1,1429 @@
-info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T11:26:17.456Z"}
-info: Connected to the database. {"timestamp":"2023-01-25T11:26:26.872Z"}
-info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T11:28:34.586Z"}
-info: Connected to the database. {"timestamp":"2023-01-25T11:28:38.554Z"}
+
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T10:47:44.603Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T10:47:54.022Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:54.728Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:54.830Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:54.868Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:54.918Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee$ (E:\FundooNotes2\src\services\/user.service.js:26:13)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:56.308Z"}
+error: 
+    status - 500 
+    message - Error: invalid credential
+    at E:\FundooNotes2\src\services\/user.service.js:19:19 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:56.774Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:57.802Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:57.962Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:58.031Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:58.112Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\FundooNotes2\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\FundooNotes2\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (E:\FundooNotes2\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\FundooNotes2\node_modules\cors\lib\index.js:188:7)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:214:15)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\FundooNotes2\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (E:\FundooNotes2\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at query (E:\FundooNotes2\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\application.js:181:10)
+    at Server.app (E:\FundooNotes2\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at parserOnIncoming (node:_http_server:1060:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:58.253Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\FundooNotes2\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\FundooNotes2\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (E:\FundooNotes2\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\FundooNotes2\node_modules\cors\lib\index.js:188:7)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:214:15)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\FundooNotes2\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (E:\FundooNotes2\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at query (E:\FundooNotes2\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\application.js:181:10)
+    at Server.app (E:\FundooNotes2\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at parserOnIncoming (node:_http_server:1060:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17) 
+    url - /api/v1/notes/%20undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:58.412Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\FundooNotes2\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\FundooNotes2\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (E:\FundooNotes2\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\FundooNotes2\node_modules\cors\lib\index.js:188:7)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:214:15)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\FundooNotes2\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (E:\FundooNotes2\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at query (E:\FundooNotes2\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\application.js:181:10)
+    at Server.app (E:\FundooNotes2\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at parserOnIncoming (node:_http_server:1060:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:58.513Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\FundooNotes2\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\FundooNotes2\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (E:\FundooNotes2\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\FundooNotes2\node_modules\cors\lib\index.js:188:7)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:214:15)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\FundooNotes2\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (E:\FundooNotes2\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at query (E:\FundooNotes2\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\application.js:181:10)
+    at Server.app (E:\FundooNotes2\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at parserOnIncoming (node:_http_server:1060:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17) 
+    url - /api/v1/notes/all 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:59.212Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "all1" (type string) at path "_id" for model "Note"
+    at model.Query.exec (E:\FundooNotes2\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\FundooNotes2\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/all1 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:59.347Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:59.537Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/%20undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:59.739Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:59.976Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:48:00.112Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:48:00.195Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:48:00.276Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\FundooNotes2\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\FundooNotes2\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (E:\FundooNotes2\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\FundooNotes2\node_modules\cors\lib\index.js:188:7)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:214:15)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\FundooNotes2\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (E:\FundooNotes2\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at query (E:\FundooNotes2\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\application.js:181:10)
+    at Server.app (E:\FundooNotes2\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at parserOnIncoming (node:_http_server:1060:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17) 
+    url - /api/v1/notes/undefined3 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:48:00.454Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\FundooNotes2\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\FundooNotes2\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (E:\FundooNotes2\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\FundooNotes2\node_modules\cors\lib\index.js:188:7)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:214:15)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\FundooNotes2\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (E:\FundooNotes2\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at query (E:\FundooNotes2\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\application.js:181:10)
+    at Server.app (E:\FundooNotes2\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at parserOnIncoming (node:_http_server:1060:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:48:00.647Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\FundooNotes2\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\FundooNotes2\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\FundooNotes2\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (E:\FundooNotes2\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (E:\FundooNotes2\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (E:\FundooNotes2\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\FundooNotes2\node_modules\cors\lib\index.js:188:7)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:214:15)
+    at E:\FundooNotes2\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\FundooNotes2\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\FundooNotes2\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (E:\FundooNotes2\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at query (E:\FundooNotes2\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\application.js:181:10)
+    at Server.app (E:\FundooNotes2\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at parserOnIncoming (node:_http_server:1060:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:48:00.828Z"}
+

@@ -1480,17 +1480,59 @@ info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:14 +0000] "POST /api/v1/users/logi
 
 info: ::ffff:127.0.0.1 - - [18/Jan/2023:16:30:14 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
 
-info: ::1 - - [25/Jan/2023:11:26:47 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 2641 "-" "PostmanRuntime/7.30.0"
 
-info: ::1 - - [25/Jan/2023:11:26:59 +0000] "GET /api/v1/notes/63c5030d8d63953604114508 HTTP/1.1" 200 714 "-" "PostmanRuntime/7.30.0"
+error: uncaughtException: Cannot find module 'swagger-ui-express'
+Require stack:
+- E:\FundooNotes2\src\index.js
+Error: Cannot find module 'swagger-ui-express'
+Require stack:
+- E:\FundooNotes2\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\FundooNotes2\src\/index.js:17:1)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (E:\FundooNotes2\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (E:\FundooNotes2\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:82:12)
+    at Object.<anonymous> (E:\FundooNotes2\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:82:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Jan 25 2023 16:11:23 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["E:\\FundooNotes2\\src\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":187320.218},"process":{"argv":["node","E:\\FundooNotes2\\src\\index.js"],"cwd":"E:\\FundooNotes2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19032024,"external":21387925,"heapTotal":121405440,"heapUsed":98747064,"rss":162775040},"pid":16624,"uid":null,"version":"v19.3.0"},"stack":"Error: Cannot find module 'swagger-ui-express'\nRequire stack:\n- E:\\FundooNotes2\\src\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:885:27)\n    at Module.require (node:internal/modules/cjs/loader:1105:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\FundooNotes2\\src\\/index.js:17:1)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (E:\\FundooNotes2\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (E:\\FundooNotes2\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:82:12)\n    at Object.<anonymous> (E:\\FundooNotes2\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:82:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1039,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":885,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1105,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\FundooNotes2\\src\\/index.js","function":null,"line":17,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"E:\\FundooNotes2\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"E:\\FundooNotes2\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":82,"method":"runMain","native":false},{"column":12,"file":"E:\\FundooNotes2\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":82,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:54 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
 
-info: ::1 - - [25/Jan/2023:11:27:03 +0000] "GET /api/v1/notes/63c5030d8d63953604114508 HTTP/1.1" 200 714 "-" "PostmanRuntime/7.30.0"
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:54 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
 
-info: ::1 - - [25/Jan/2023:11:27:10 +0000] "GET /api/v1/notes/63c5030d8d63953604114508 HTTP/1.1" 200 714 "-" "PostmanRuntime/7.30.0"
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:54 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
 
-info: ::1 - - [25/Jan/2023:11:28:42 +0000] "GET /api/v1/notes/63c5030d8d63953604114508 HTTP/1.1" 200 714 "-" "PostmanRuntime/7.30.0"
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:54 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
 
-info: ::1 - - [25/Jan/2023:11:28:46 +0000] "GET /api/v1/notes/63c5030d8d63953604114508 HTTP/1.1" 200 712 "-" "PostmanRuntime/7.30.0"
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:55 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 330 "-" "node-superagent/3.8.3"
 
-info: ::1 - - [25/Jan/2023:11:28:53 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 2641 "-" "PostmanRuntime/7.30.0"
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:56 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:56 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:57 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 2548 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:57 +0000] "POST /api/v1/notes/add HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (E:\FundooNotes2\tests\integration\/user.test.js:206:35)
+    at Test.assert (E:\FundooNotes2\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\FundooNotes2\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 25 2023 16:17:57 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\FundooNotes2\\tests\\integration\\/user.test.js:206:35)\n    at Test.assert (E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":187714.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\FundooNotes2\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"E:\\FundooNotes2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18383091,"external":21693834,"heapTotal":189337600,"heapUsed":155256048,"rss":235569152},"pid":10440,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\FundooNotes2\\tests\\integration\\/user.test.js:206:35)\n    at Test.assert (E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":35,"file":"E:\\FundooNotes2\\tests\\integration\\/user.test.js","function":null,"line":206,"method":null,"native":false},{"column":6,"file":"E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
 

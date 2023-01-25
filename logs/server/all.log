@@ -4087,7 +4087,144 @@ error:
    {"timestamp":"2023-01-18T16:30:14.633Z"}
 info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-18T17:10:09.539Z"}
 info: Connected to the database. {"timestamp":"2023-01-18T17:10:12.755Z"}
-info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T11:26:17.456Z"}
-info: Connected to the database. {"timestamp":"2023-01-25T11:26:26.872Z"}
-info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T11:28:34.586Z"}
-info: Connected to the database. {"timestamp":"2023-01-25T11:28:38.554Z"}
+
+error: uncaughtException: Cannot find module 'swagger-ui-express'
+Require stack:
+- E:\FundooNotes2\src\index.js
+Error: Cannot find module 'swagger-ui-express'
+Require stack:
+- E:\FundooNotes2\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\FundooNotes2\src\/index.js:17:1)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (E:\FundooNotes2\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (E:\FundooNotes2\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:82:12)
+    at Object.<anonymous> (E:\FundooNotes2\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:82:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Jan 25 2023 16:11:23 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["E:\\FundooNotes2\\src\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":187320.156},"process":{"argv":["node","E:\\FundooNotes2\\src\\index.js"],"cwd":"E:\\FundooNotes2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19019632,"external":21375493,"heapTotal":121143296,"heapUsed":98578224,"rss":162631680},"pid":16624,"uid":null,"version":"v19.3.0"},"stack":"Error: Cannot find module 'swagger-ui-express'\nRequire stack:\n- E:\\FundooNotes2\\src\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:885:27)\n    at Module.require (node:internal/modules/cjs/loader:1105:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\FundooNotes2\\src\\/index.js:17:1)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (E:\\FundooNotes2\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (E:\\FundooNotes2\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:82:12)\n    at Object.<anonymous> (E:\\FundooNotes2\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:82:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-25T10:41:23.476Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1039,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":885,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1105,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\FundooNotes2\\src\\/index.js","function":null,"line":17,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"E:\\FundooNotes2\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"E:\\FundooNotes2\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":82,"method":"runMain","native":false},{"column":12,"file":"E:\\FundooNotes2\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":82,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T10:47:44.603Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T10:47:54.022Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:54.728Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:54.830Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:54.868Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:54.918Z"}
+error: 
+    status - 500 
+    message - Error: Login unsuccesfull
+    at _callee$ (E:\FundooNotes2\src\services\/user.service.js:26:13)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:56.308Z"}
+error: 
+    status - 500 
+    message - Error: invalid credential
+    at E:\FundooNotes2\src\services\/user.service.js:19:19 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:56.774Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\FundooNotes2\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\FundooNotes2\src\middlewares\/auth.middleware.js:17:29)
+    at tryCatch (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\FundooNotes2\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\FundooNotes2\src\middlewares\/auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\FundooNotes2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FundooNotes2\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\FundooNotes2\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\FundooNotes2\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\FundooNotes2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\FundooNotes2\node_modules\express\lib\router\index.js:328:13)
+    at E:\FundooNotes2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\FundooNotes2\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FundooNotes2\node_modules\express\lib\router\index.js:280:10)
+    at E:\FundooNotes2\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (E:\FundooNotes2\node_modules\raw-body\index.js:231:16)
+    at done (E:\FundooNotes2\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\FundooNotes2\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/add 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-25T10:47:57.802Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (E:\FundooNotes2\tests\integration\/user.test.js:206:35)
+    at Test.assert (E:\FundooNotes2\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\FundooNotes2\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2109:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Jan 25 2023 16:17:57 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\FundooNotes2\\tests\\integration\\/user.test.js:206:35)\n    at Test.assert (E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":187714.531},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\FundooNotes2\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"E:\\FundooNotes2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18374875,"external":21685578,"heapTotal":189337600,"heapUsed":155143336,"rss":235528192},"pid":10440,"uid":null,"version":"v19.3.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\FundooNotes2\\tests\\integration\\/user.test.js:206:35)\n    at Test.assert (E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2109:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-01-25T10:47:57.839Z","trace":[{"column":35,"file":"E:\\FundooNotes2\\tests\\integration\\/user.test.js","function":null,"line":206,"method":null,"native":false},{"column":6,"file":"E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\FundooNotes2\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2109,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+
