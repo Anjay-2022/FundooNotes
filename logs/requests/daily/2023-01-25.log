@@ -1,3 +1,4 @@
+
 info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:54 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
 
 info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:47:54 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
@@ -67,4 +68,5 @@ info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:48:00 +0000] "DELETE /api/v1/notes/un
 info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:48:00 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
 
 info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:48:00 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
 
