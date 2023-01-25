@@ -4087,3 +4087,7 @@ error:
    {"timestamp":"2023-01-18T16:30:14.633Z"}
 info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-18T17:10:09.539Z"}
 info: Connected to the database. {"timestamp":"2023-01-18T17:10:12.755Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T11:26:17.456Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:26:26.872Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T11:28:34.586Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:28:38.554Z"}

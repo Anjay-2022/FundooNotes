@@ -1,14 +1,19 @@
 import notes from '../models/note.model';
+import { client } from '../config/redis';
 
 //get all notes of  single user
 export const getallnote = async (body) => {
   const data = await notes.find({ user_id: body.user_id })
+  //console.log(data)
+  await client.set(body.user_id,JSON.stringify(data)) 
   return data
 };
 
 //get single note
 export const getnote = async (_id, body) => {
+  await client.del('getData')
   const data = await notes.findOne({ user_id: body.user_id, _id: _id });
+  await client.set(_id,JSON.stringify(data))
   if (data != null) {
     return data;
   } else {
@@ -19,12 +24,14 @@ export const getnote = async (_id, body) => {
 
 //create new note
 export const createnote = async (body) => {
+  await client.del("getAllData")
   const data = await notes.create(body);
   return data;
 };
 
 //update single note
 export const updatenote = async (_id, body) => {
+  await client.del("getAllData")
   const data = await notes.findOne({ user_id: body.user_id, _id: _id });
   if (data != null) {
     const note = await notes.findByIdAndUpdate(
@@ -43,6 +50,7 @@ export const updatenote = async (_id, body) => {
 
 //delete single note
 export const deletenote = async (_id, body) => {
+  await client.del("getAllData")
   const data = await notes.findOne({ user_id: body.user_id, _id: _id });
   if (data != null) {
     await notes.findByIdAndDelete(_id);
@@ -53,6 +61,7 @@ export const deletenote = async (_id, body) => {
 
 
 export const archivenote = async (id, body) => {
+  await client.del("getAllData")
   const data = await notes.findOne({ $and: [{ user_id: body.user_id }, { _id: id }] });
   if (data != null) {
     if (data.archive == false) {
@@ -69,6 +78,7 @@ export const archivenote = async (id, body) => {
 };
 
 export const trashnote = async (id, body) => {
+  await client.del("getAllData")
   const data = await notes.findOne({ $and: [{ user_id: body.user_id }, { _id: id }] });
   if (data != null) {
     if (data.trash == false) {
