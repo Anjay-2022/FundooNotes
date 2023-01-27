@@ -3,7 +3,7 @@ import { Schema, model } from 'mongoose';
 
 const noteSchema = new Schema(
   {
-    user_id: {type: String},    
+    email: {type: String},    
     title: {type: String},    
     description: {type: String},    
     colour: {type: String,default:'red'}, 
