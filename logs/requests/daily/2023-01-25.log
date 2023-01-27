@@ -70,3 +70,23 @@ info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:48:00 +0000] "DELETE /api/v1/notes/un
 info: ::ffff:127.0.0.1 - - [25/Jan/2023:10:48:00 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
 
 
+
+info: ::1 - - [25/Jan/2023:12:16:56 +0000] "GET /api/v1/notes/a63ce453ef5a48712b4f39419 HTTP/1.1" 400 233 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:17:55 +0000] "GET /api/v1/notes/a63ce453ef5a48712b4f39419 HTTP/1.1" 400 148 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:18:07 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 2647 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:18:14 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 2641 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:18:31 +0000] "GET /api/v1/notes/63c5030d8d63953604114508 HTTP/1.1" 200 714 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:18:34 +0000] "GET /api/v1/notes/63c5030d8d63953604114508 HTTP/1.1" 200 712 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:18:44 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 2641 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:18:55 +0000] "GET /api/v1/notes/63ce453ef5a48712b4f39419 HTTP/1.1" 200 328 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:18:58 +0000] "GET /api/v1/notes/63ce453ef5a48712b4f39419 HTTP/1.1" 200 326 "-" "PostmanRuntime/7.30.0"
+
+

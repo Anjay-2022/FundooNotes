@@ -1,0 +1,138 @@
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T08:26:49.517Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T08:27:02.685Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T08:27:30.704Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T08:27:39.484Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T08:30:14.788Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T08:30:23.546Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T08:38:11.852Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T08:38:42.697Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T10:25:14.183Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T10:27:16.402Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:27:26.208Z"}
+error: 
+    status - 500 
+    message - Error: User already register with this email!
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\src\services\/user.service.js:35:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:28:16.142Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T11:00:26.530Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T11:00:53.013Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:01:01.688Z"}
+error: 
+    status - 500 
+    message - Error: User already register with this email!
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\src\services\/user.service.js:35:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:01:07.726Z"}
+error: 
+    status - 500 
+    message - Error: User already register with this email!
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\src\services\/user.service.js:35:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:01:25.581Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T11:02:22.070Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:02:30.591Z"}
+error: 
+    status - 500 
+    message - Error: User already register with this email!
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\src\services\/user.service.js:35:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:02:36.882Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T11:03:30.872Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:03:39.779Z"}
+error: 
+    status - 500 
+    message - Error: User already register with this email!
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\src\services\/user.service.js:35:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:03:51.815Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T11:06:29.977Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:06:40.365Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T11:07:46.144Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T11:30:04.764Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:30:15.039Z"}
+error: 
+    status - 500 
+    message - Error: User already register with this email!
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\src\services\/user.service.js:35:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:31:20.597Z"}
+error: 
+    status - 500 
+    message - Error: User already register with this email!
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\src\services\/user.service.js:35:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:33:42.737Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T11:41:45.493Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:41:55.595Z"}
+error: 
+    status - 500 
+    message - Error: User already register with this email!
+    at _callee2$ (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\src\services\/user.service.js:35:11)
+    at tryCatch (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registerUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:42:14.207Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-27T11:52:30.990Z"}

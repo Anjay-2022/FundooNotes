@@ -1427,3 +1427,25 @@ error:
     IP - ::ffff:127.0.0.1
    {"timestamp":"2023-01-25T10:48:00.828Z"}
 
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T12:16:33.051Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:16:42.125Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/a63ce453ef5a48712b4f39419 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-25T12:16:56.127Z"}
+info: Server started at http://localhost:5454/api/v1/ {"timestamp":"2023-01-25T12:17:42.562Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:17:51.532Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "a63ce453ef5a48712b4f39419" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Yatendra Pratap\Fundoo_Notes\FundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/a63ce453ef5a48712b4f39419 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-25T12:17:55.634Z"}
+

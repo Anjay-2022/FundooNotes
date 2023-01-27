@@ -3,16 +3,20 @@ import { client } from '../config/redis';
 
 //get all notes of  single user
 export const getallnote = async (body) => {
-  const data = await notes.find({ user_id: body.user_id })
+
+  const data = await notes.find({ email: body.email })
   //console.log(data)
-  await client.set(body.user_id,JSON.stringify(data)) 
+  await client.set(body.email,JSON.stringify(data)) 
+
   return data
 };
 
 //get single note
 export const getnote = async (_id, body) => {
   await client.del('getData')
-  const data = await notes.findOne({ user_id: body.user_id, _id: _id });
+
+  const data = await notes.findOne({ email: body.email, _id: _id });
+
   await client.set(_id,JSON.stringify(data))
   if (data != null) {
     return data;
@@ -32,7 +36,9 @@ export const createnote = async (body) => {
 //update single note
 export const updatenote = async (_id, body) => {
   await client.del("getAllData")
-  const data = await notes.findOne({ user_id: body.user_id, _id: _id });
+
+  const data = await notes.findOne({ email: body.email, _id: _id });
+
   if (data != null) {
     const note = await notes.findByIdAndUpdate(
       {
@@ -51,7 +57,9 @@ export const updatenote = async (_id, body) => {
 //delete single note
 export const deletenote = async (_id, body) => {
   await client.del("getAllData")
-  const data = await notes.findOne({ user_id: body.user_id, _id: _id });
+
+  const data = await notes.findOne({ email: body.email, _id: _id });
+
   if (data != null) {
     await notes.findByIdAndDelete(_id);
     return '';
@@ -62,7 +70,9 @@ export const deletenote = async (_id, body) => {
 
 export const archivenote = async (id, body) => {
   await client.del("getAllData")
-  const data = await notes.findOne({ $and: [{ user_id: body.user_id }, { _id: id }] });
+
+  const data = await notes.findOne({ $and: [{ email: body.email }, { _id: id }] });
+
   if (data != null) {
     if (data.archive == false) {
       const updatednote = await notes.updateOne(
@@ -79,7 +89,9 @@ export const archivenote = async (id, body) => {
 
 export const trashnote = async (id, body) => {
   await client.del("getAllData")
-  const data = await notes.findOne({ $and: [{ user_id: body.user_id }, { _id: id }] });
+
+  const data = await notes.findOne({ $and: [{ email: body.email }, { _id: id }] });
+
   if (data != null) {
     if (data.trash == false) {
       const updatednote = await notes.updateOne(
