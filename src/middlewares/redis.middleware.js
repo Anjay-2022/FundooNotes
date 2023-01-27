@@ -4,7 +4,7 @@ import HttpStatus from 'http-status-codes';
 
 export const redisCheck = async (req, res, next) => {
     try {
-        const allNotes = await client.get(req.body.user_id)
+        const allNotes = await client.get(req.body.email)
         const notes = JSON.parse(allNotes)
         if (notes != null) {
             res.status(HttpStatus.OK).json({
