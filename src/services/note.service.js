@@ -1,6 +1,11 @@
 import notes from '../models/note.model';
 import { client } from '../config/redis';
 
+//get all notes of  All user
+export const getAllnote = async (body) => {
+  const data = await notes.find()
+  return data
+};
 //get all notes of  single user
 export const getallnote = async (body) => {
   const data = await notes.find({ email: body.email })
@@ -47,11 +52,14 @@ export const updatenote = async (_id, body) => {
     throw new Error("Invalid Object_id")
 };
 
+
 //delete single note
 export const deletenote = async (_id, body) => {
   await client.del(body.email)
   await client.del(_id)
+
   const data = await notes.findOne({ email: body.email, _id: _id });
+
   if (data != null) {
     await notes.findByIdAndDelete(_id);
     return '';
@@ -62,7 +70,7 @@ export const deletenote = async (_id, body) => {
 
 export const archivenote = async (id, body) => {
   await client.del(body.email)
-  await client.del(_id)
+  await client.del(id)
   const data = await notes.findOne({ $and: [{ email: body.email }, { _id: id }] });
   if (data != null) {
     if (data.archive == false) {
@@ -80,7 +88,7 @@ export const archivenote = async (id, body) => {
 
 export const trashnote = async (id, body) => {
   await client.del(body.email)
-  await client.del(_id)
+  await client.del(id)
   const data = await notes.findOne({ $and: [{ email: body.email }, { _id: id }] });
   if (data != null) {
     if (data.trash == false) {

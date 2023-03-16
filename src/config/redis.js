@@ -1,5 +1,7 @@
 import { createClient } from 'redis'
 
+import logger from './logger';
+
 export const client = createClient({
     port: 6379,
     host: 'redis'
@@ -8,9 +10,9 @@ export const client = createClient({
 const redis = async() => {
  try {
     await client.connect()
-    console.log("CLIENT CONNECTION ESTD...")
+    logger.info("CLIENT CONNECTION ESTD...")
  } catch (error) {
-    console.log(error)
+    logger.error(error)
  }
 }
 export default redis

@@ -1,18 +1,18 @@
 {
   "root": true,
   "parser": "babel-eslint",
-  "extends": ["plugin:prettier/recommended"],
+  //"extends": ["plugin:prettier/recommended"],
   "rules": {
-    "no-console": 0,
+    "no-console": 1,
     "no-unused-vars": "error",
     "quotes": [
-      "error",
+      1,
       "single",
       {
         "allowTemplateLiterals": true
       }
     ],
-    "semi-style": ["error", "last"],
+    "semi-style": ["warn", "last"],
     "max-len": [
       "error",
       {

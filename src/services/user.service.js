@@ -20,8 +20,7 @@ export const loginUser = async (body) => {
           } else {
             token = jwt.sign({ email: data.email, id: data._id }, key);
           }
-        })
-      sender(body)  
+        }) 
       return token
     } else
       throw new Error("User is not registered.")

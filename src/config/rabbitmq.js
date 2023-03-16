@@ -1,5 +1,6 @@
 const amqplib = require('amqplib/callback_api');
-// //import { registerMail } from '../utils/user.util';
+import logger from './logger'
+import { registerMail } from '../utils/user.util';
 const queue = 'register';
 
 
@@ -21,9 +22,10 @@ export const receiver = () => amqplib.connect('amqp://localhost', (err, conn) =>
             if (msg !== null) {
                 const data = JSON.parse(msg.content.toString())
                 ch2.ack(msg);
-                console.log("Message Recieved ", data)
+                registerMail(data)
+                logger.info("Email send to user ", data)
             } else {
-                console.log('Consumer cancelled by server');
+                logger.warn('Consumer cancelled by server');
             }
         });
     });
