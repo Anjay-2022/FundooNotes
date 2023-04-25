@@ -1,22 +1,17 @@
 import notes from '../models/note.model';
 import { client } from '../config/redis';
 
-//get all notes of  All user
-export const getAllnote = async (body) => {
-  const data = await notes.find()
-  return data
-};
 //get all notes of  single user
 export const getallnote = async (body) => {
-  const data = await notes.find({ email: body.email })
-  await client.set(body.email,JSON.stringify(data)) 
+  const data = await notes.find({ email: body.email })       
+  await client.set(body.email, JSON.stringify(data))                // we need to put redis request in try and catch block to error if error genrated
   return data
 };
 
 //get single note
 export const getnote = async (_id, body) => {
   const data = await notes.findOne({ email: body.email, _id: _id });
-  await client.set(_id,JSON.stringify(data))
+  await client.set(_id, JSON.stringify(data))
   if (data != null) {
     return data;
   } else {
@@ -40,7 +35,7 @@ export const updatenote = async (_id, body) => {
   if (data != null) {
     const note = await notes.findByIdAndUpdate(
       {
-        _id  //_id which is in noteschema we cant rename it 
+        _id  
       },
       body,
       {
@@ -57,7 +52,6 @@ export const updatenote = async (_id, body) => {
 export const deletenote = async (_id, body) => {
   await client.del(body.email)
   await client.del(_id)
-
   const data = await notes.findOne({ email: body.email, _id: _id });
 
   if (data != null) {

@@ -6,7 +6,7 @@ import { forgetemail } from '../utils/user.util';
 import { sender } from '../config/rabbitmq';
 dotenv.config();
 
-let key = process.env.key
+
 
 //Login users
 export const loginUser = async (body) => {
@@ -18,7 +18,7 @@ export const loginUser = async (body) => {
           if (!result) {
             throw new Error("invalid credential")
           } else {
-            token = jwt.sign({ email: data.email, id: data._id }, key);
+            token = jwt.sign({ email: data.email, id: data._id }, process.env.key);
           }
         }) 
       return token
@@ -42,7 +42,7 @@ export const registerUser = async (body) => {
   }
 };
 
-export const sendmailtoresetpass = async (body) => {
+export const forgetPassword = async (body) => {
     const data = await User.findOne({ email: body.email });
     if (data != null) {
       const token = jwt.sign({ email: data.email, id: data._id }, key,

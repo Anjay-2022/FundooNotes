@@ -6,16 +6,13 @@ import { redisCheck, redisCheckOne } from '../middlewares/redis.middleware';
 
 const router = express.Router();
 
-//route to create a new note
-router.post('/add', userAuth,newnoteValidator, noteController.createnote);
 
-//route to get all notes of All user
-//router.get('/All',noteController.getAllnote);
 
 //route to get all notes of Single user
 router.get('/all', userAuth,redisCheck,noteController.getallnote);
 
-
+//route to create a new note
+router.post('/add', userAuth,newnoteValidator, noteController.createnote);
 
 //route to get a single note by their note id
 router.get('/:_id', userAuth,redisCheckOne, noteController.getnote);

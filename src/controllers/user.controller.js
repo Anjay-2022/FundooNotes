@@ -2,7 +2,7 @@ import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
 
-export const loginUser = async (req, res, next) => {
+export const loginUser = async (req, res) => {
   try {
     const data = await UserService.loginUser(req.body);
 
@@ -16,12 +16,11 @@ export const loginUser = async (req, res, next) => {
       code: HttpStatus.BAD_REQUEST,
       message: `${error}`
     })
-    next(error);
   }
 };
 
 
-export const registerUser = async (req, res, next) => {
+export const registerUser = async (req, res,) => {
   try {
     const data = await UserService.registerUser(req.body);
     res.status(HttpStatus.CREATED).json({
@@ -34,17 +33,16 @@ export const registerUser = async (req, res, next) => {
       code: HttpStatus.BAD_REQUEST,
       message: `${error}`
     })
-    next(error);
+
   }
 };
 
-export const sendmailToResetPass = async (req, res, next) => {
+export const forgetPassword = async (req, res) => {
   try {
-    const data = await UserService.sendmailtoresetpass(req.body);
+    const data = await UserService.forgetPassword(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
-      valid_time: "10 minutes",
       message: 'Email has send successfully'
     });
   } catch (error) {
@@ -52,11 +50,10 @@ export const sendmailToResetPass = async (req, res, next) => {
       code: HttpStatus.BAD_REQUEST,
       message: `${error}`
     })
-    next(error);
   }
 };
 
-export const resetPassword = async (req, res, next) => {
+export const resetPassword = async (req, res) => {
   try {
     const data = await UserService.resetPassword(req.body);
     res.status(HttpStatus.CREATED).json({
@@ -69,6 +66,5 @@ export const resetPassword = async (req, res, next) => {
       code: HttpStatus.BAD_REQUEST,
       message: `${error}`
     })
-    next(error);
   }
 };
