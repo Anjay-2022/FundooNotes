@@ -45,8 +45,7 @@ export const registerUser = async (body) => {
 export const forgetPassword = async (body) => {
     const data = await User.findOne({ email: body.email });
     if (data != null) {
-      const token = jwt.sign({ email: data.email, id: data._id }, key,
-        { expiresIn: '10m' });
+      const token = jwt.sign({ email: data.email, id: data._id },process.env.key);
       const details = await forgetemail(data.email, token)
       return details
     } else

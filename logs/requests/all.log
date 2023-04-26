@@ -20014,3 +20014,123 @@ info: ::1 - - [25/Apr/2023:12:00:56 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 
 
 info: ::1 - - [25/Apr/2023:12:00:56 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
 
+info: ::1 - - [25/Apr/2023:17:10:48 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 400 59 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [25/Apr/2023:17:13:13 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 2499 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [25/Apr/2023:17:15:11 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 400 63 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [25/Apr/2023:17:15:25 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 2499 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [25/Apr/2023:17:24:12 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 201 2499 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [26/Apr/2023:03:00:32 +0000] "POST /api/v1/users/ HTTP/1.1" 201 323 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:00:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 245 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:00:47 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 64 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:00:47 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 58 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:00:47 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:00:54 +0000] "POST /api/v1/notes/add HTTP/1.1" 400 233 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed Apr 26 2023 08:31:14 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77560.812},"process":{"argv":["node","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\FundooNotes\\src\\index.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18449135,"external":22331201,"heapTotal":130322432,"heapUsed":125464912,"rss":177856512},"pid":14680,"uid":null,"version":"v19.3.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: ::1 - - [26/Apr/2023:03:02:01 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 307 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:02 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 313 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:02 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 307 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:02 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:33 +0000] "PUT /api/v1/notes/64489429e69d3b349ca05446/archive HTTP/1.1" 202 355 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:34 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 312 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:34 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 306 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:34 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:43 +0000] "PUT /api/v1/notes/64489429e69d3b349ca05446/archive HTTP/1.1" 202 355 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:44 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 313 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:44 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 307 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:44 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:46 +0000] "PUT /api/v1/notes/64489429e69d3b349ca05446/trash HTTP/1.1" 202 351 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:48 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 312 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:48 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 306 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:02:48 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:03:01 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:03:06 +0000] "DELETE /api/v1/notes/64489429e69d3b349ca05446 HTTP/1.1" 200 60 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:03:07 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 64 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:03:07 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 58 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:03:07 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:03:18 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 296 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:03:19 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 302 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:03:19 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 296 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:03:19 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:13 +0000] "PUT /api/v1/notes/64489475e69d3b349ca05455 HTTP/1.1" 202 294 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:14 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 300 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:14 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 294 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:14 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:22 +0000] "PUT /api/v1/notes/64489475e69d3b349ca05455 HTTP/1.1" 202 294 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:24 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 300 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:24 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 294 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:24 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:27 +0000] "PUT /api/v1/notes/64489475e69d3b349ca05455 HTTP/1.1" 202 294 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:29 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 300 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:29 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 294 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:29 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:38 +0000] "PUT /api/v1/notes/64489475e69d3b349ca05455 HTTP/1.1" 202 296 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:39 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 302 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:39 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 296 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:39 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:53 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 300 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:54 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 545 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:54 +0000] "GET /api/v1/notes/all HTTP/1.1" 200 539 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:04:54 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+info: ::1 - - [26/Apr/2023:03:05:04 +0000] "GET /api/v1/notes/all HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed Apr 26 2023 13:15:53 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":94640.265},"process":{"argv":["node","C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\FundooNotes\\src\\index.js"],"cwd":"C:\\Users\\Yatendra Pratap\\Fundoo_Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18690351,"external":22572417,"heapTotal":136089600,"heapUsed":132058088,"rss":75079680},"pid":13468,"uid":null,"version":"v19.3.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}

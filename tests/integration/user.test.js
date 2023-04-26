@@ -39,7 +39,7 @@ describe('Fundoo_Notes APIs Test', () => {
                 "password": "ramendra@123"
             }
             request(app)
-                .post('/api/v1/users/registerUser')
+                .post('/api/v1/users')
                 .send(inputBody)
                 .end((err, res) => {
                     expect(res.statusCode).to.be.equal(201);
@@ -55,7 +55,7 @@ describe('Fundoo_Notes APIs Test', () => {
                 "password": "ramendra@123"
             }
             request(app)
-                .post('/api/v1/users/registerUser')
+                .post('/api/v1/users')
                 .send(inputBody)
                 .end((err, res) => {
                     expect(res.statusCode).to.be.equal(500);
@@ -72,7 +72,7 @@ describe('Fundoo_Notes APIs Test', () => {
                 "password": "ramendra@123"
             }
             request(app)
-                .post('/api/v1/users/registerUser')
+                .post('/api/v1/users')
                 .send(inputBody)
                 .end((err, res) => {
                     expect(res.statusCode).to.be.equal(500);
@@ -88,7 +88,7 @@ describe('Fundoo_Notes APIs Test', () => {
                 "password": "ramendra@123"
             }
             request(app)
-                .post('/api/v1/users/registerUser')
+                .post('/api/v1/users')
                 .send(inputBody)
                 .end((err, res) => {
                     expect(res.statusCode).to.be.equal(500);
@@ -105,7 +105,7 @@ describe('Fundoo_Notes APIs Test', () => {
                 "password": "r@123"
             }
             request(app)
-                .post('/api/v1/users/registerUser')
+                .post('/api/v1/users')
                 .send(inputBody)
                 .end((err, res) => {
                     expect(res.statusCode).to.be.equal(500);
